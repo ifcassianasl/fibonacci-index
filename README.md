@@ -5,23 +5,23 @@
 ### Install
 
 ```
-    pip install fibonacci-index
+    pip install fibonacci_index
 ```
 
 ### Use
 
 ```
-    import fibonacci-index
+    from fibonacci_index import fibonacci_index
 
-    index = fibonacci-index.sum(<number>)
+    index = fibonacci_index.sum(<number>)
 ```
 
 ### Example
 ```
-    import fibonacci-index
+    from fibonacci_index import fibonacci_index
 
-    index = fibonacci-index.sum(5)
+    index = fibonacci_index.sum(5)
 
     print(index)
-    # 5
+    # 13
 ```
